@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+venv/
+env/
+ENV/
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+
+# Temporary data and uploads
+backend/storage/uploads/*
+backend/storage/frames/*
+backend/storage/reports/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/frames/.gitkeep
+!backend/storage/reports/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

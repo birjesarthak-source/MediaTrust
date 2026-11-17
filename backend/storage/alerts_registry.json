@@ -1,0 +1,41 @@
+[
+  {
+    "id": "4275f4b7-30da-4905-8bfb-2d9883997f63",
+    "report_id": "",
+    "media_id": "fffa7d06-4f4a-491e-b867-7b8d7116a0eb",
+    "severity": "High",
+    "category": "AI-Generated Image",
+    "headline": "Potentially suspicious image detected (AI Generation Signature)",
+    "details": "Synthetic neural cues identified with 41.1% probability and frequency spectral grid peaks.",
+    "acknowledged": true,
+    "acknowledged_at": "2026-11-17T16:18:59.031082+00:00",
+    "created_at": "2026-11-17T16:18:58.858064+00:00",
+    "resolution_notes": "Reviewed by lead forensics officer. False alarm verified."
+  },
+  {
+    "id": "db9bfa79-e147-463e-9777-b1053c5bc101",
+    "report_id": "",
+    "media_id": "5638b52b-10b7-41ba-ad3a-24fa32ebe2ed",
+    "severity": "High",
+    "category": "AI-Generated Image",
+    "headline": "Potentially suspicious image detected (AI Generation Signature)",
+    "details": "Synthetic neural cues identified with 66.6% probability and frequency spectral grid peaks.",
+    "acknowledged": true,
+    "acknowledged_at": "2026-11-17T16:20:59.904007+00:00",
+    "created_at": "2026-11-17T16:20:59.830962+00:00",
+    "resolution_notes": "Reviewed by lead forensics officer. False alarm verified."
+  },
+  {
+    "id": "7d292798-10b3-411c-908f-54904906646a",
+    "report_id": "",
+    "media_id": "dddfd0f5-6563-4fc7-b5b0-41258c9c7c60",
+    "severity": "High",
+    "category": "AI-Generated Image",
+    "headline": "Potentially suspicious image detected (AI Generation Signature)",
+    "details": "Synthetic neural cues identified with 79.5% probability and frequency spectral grid peaks.",
+    "acknowledged": true,
+    "acknowledged_at": "2026-11-17T16:44:02.061082+00:00",
+    "created_at": "2026-11-17T16:44:02.028488+00:00",
+    "resolution_notes": "Reviewed by lead forensics officer. False alarm verified."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "src-001-reddit-news",
+    "platform_name": "Reddit",
+    "handle_or_channel": "r/news",
+    "auth_status": "Connected",
+    "is_active": true,
+    "last_polled_at": null,
+    "created_at": "2026-11-17T16:24:15.569470+00:00"
+  },
+  {
+    "id": "src-002-reddit-worldnews",
+    "platform_name": "Reddit",
+    "handle_or_channel": "r/worldnews",
+    "auth_status": "Connected",
+    "is_active": true,
+    "last_polled_at": null,
+    "created_at": "2026-11-17T16:24:15.569495+00:00"
+  },
+  {
+    "id": "src-ce8230c5",
+    "platform_name": "Reddit",
+    "handle_or_channel": "r/technology",
+    "auth_status": "Connected",
+    "is_active": true,
+    "last_polled_at": null,
+    "created_at": "2026-11-17T16:24:15.623870+00:00"
+  },
+  {
+    "id": "src-64263968",
+    "platform_name": "Reddit",
+    "handle_or_channel": "r/technology",
+    "auth_status": "Connected",
+    "is_active": true,
+    "last_polled_at": null,
+    "created_at": "2026-11-17T16:44:02.447468+00:00"
+  }
+]

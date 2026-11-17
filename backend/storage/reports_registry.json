@@ -1,0 +1,107 @@
+{
+  "b60e5236-716e-446f-a6cf-413eefdc460a": {
+    "report_id": "b60e5236-716e-446f-a6cf-413eefdc460a",
+    "media_id": "fffa7d06-4f4a-491e-b867-7b8d7116a0eb",
+    "filename": "fusion_test_image.jpg",
+    "media_type": "image",
+    "overall_assessment": "Potentially AI-Generated",
+    "confidence_score": 0.41,
+    "key_evidence": [
+      "PyTorch CNN model 'ForensicResNet-SyntheticDetector-v1' flagged synthetic generation cues (Probability: 41.1%).",
+      "Periodic 2D-FFT spectral grid peaks detected, characteristic of generative upsampling."
+    ],
+    "uncertainty_and_limitations": "Evidence fusion integrates multiple statistical and cryptographic indicators. Missing EXIF or C2PA credentials are not penalized. Lossy social media compression can reduce high-frequency fidelity.",
+    "human_verification_recommendation": "Recommend manual forensic review and corroboration against trusted eyewitness or verified news wire sources.",
+    "module_summaries": {
+      "metadata_stripped": true,
+      "c2pa_status": "Unavailable",
+      "recycled_matches_count": 0,
+      "compression_severity": "Severe",
+      "ai_synthetic_prob": 0.4111,
+      "video_assessment": null
+    },
+    "generated_at": "2026-11-17T16:18:58.860615+00:00",
+    "alert_generated": {
+      "id": "4275f4b7-30da-4905-8bfb-2d9883997f63",
+      "report_id": "b60e5236-716e-446f-a6cf-413eefdc460a",
+      "media_id": "fffa7d06-4f4a-491e-b867-7b8d7116a0eb",
+      "severity": "High",
+      "category": "AI-Generated Image",
+      "headline": "Potentially suspicious image detected (AI Generation Signature)",
+      "details": "Synthetic neural cues identified with 41.1% probability and frequency spectral grid peaks.",
+      "acknowledged": false,
+      "acknowledged_at": null,
+      "created_at": "2026-11-17T16:18:58.858064+00:00"
+    }
+  },
+  "e86359fe-6c87-461e-af56-c30ede386ac0": {
+    "report_id": "e86359fe-6c87-461e-af56-c30ede386ac0",
+    "media_id": "5638b52b-10b7-41ba-ad3a-24fa32ebe2ed",
+    "filename": "fusion_test_image.jpg",
+    "media_type": "image",
+    "overall_assessment": "Potentially AI-Generated",
+    "confidence_score": 0.67,
+    "key_evidence": [
+      "PyTorch CNN model 'ForensicResNet-SyntheticDetector-v1' flagged synthetic generation cues (Probability: 66.6%).",
+      "Periodic 2D-FFT spectral grid peaks detected, characteristic of generative upsampling."
+    ],
+    "uncertainty_and_limitations": "Forensic Limitations and Epistemic Uncertainty: Evidence fusion integrates multiple statistical and cryptographic indicators. Missing EXIF or C2PA credentials are not penalized. Lossy social media compression can reduce high-frequency fidelity.",
+    "human_verification_recommendation": "Recommend manual forensic review and corroboration against trusted eyewitness or verified news wire sources.",
+    "module_summaries": {
+      "metadata_stripped": true,
+      "c2pa_status": "Unavailable",
+      "recycled_matches_count": 0,
+      "compression_severity": "Severe",
+      "ai_synthetic_prob": 0.6656,
+      "video_assessment": null
+    },
+    "generated_at": "2026-11-17T16:20:59.832052+00:00",
+    "alert_generated": {
+      "id": "db9bfa79-e147-463e-9777-b1053c5bc101",
+      "report_id": "e86359fe-6c87-461e-af56-c30ede386ac0",
+      "media_id": "5638b52b-10b7-41ba-ad3a-24fa32ebe2ed",
+      "severity": "High",
+      "category": "AI-Generated Image",
+      "headline": "Potentially suspicious image detected (AI Generation Signature)",
+      "details": "Synthetic neural cues identified with 66.6% probability and frequency spectral grid peaks.",
+      "acknowledged": false,
+      "acknowledged_at": null,
+      "created_at": "2026-11-17T16:20:59.830962+00:00"
+    }
+  },
+  "a93814c8-6117-47f0-b546-35532ded7b92": {
+    "report_id": "a93814c8-6117-47f0-b546-35532ded7b92",
+    "media_id": "dddfd0f5-6563-4fc7-b5b0-41258c9c7c60",
+    "filename": "fusion_test_image.jpg",
+    "media_type": "image",
+    "overall_assessment": "Potentially AI-Generated",
+    "confidence_score": 0.8,
+    "key_evidence": [
+      "PyTorch CNN model 'ForensicResNet-SyntheticDetector-v1' flagged synthetic generation cues (Probability: 79.5%).",
+      "Periodic 2D-FFT spectral grid peaks detected, characteristic of generative upsampling."
+    ],
+    "uncertainty_and_limitations": "Forensic Limitations and Epistemic Uncertainty: Evidence fusion integrates multiple statistical and cryptographic indicators. Missing EXIF or C2PA credentials are not penalized. Lossy social media compression can reduce high-frequency fidelity.",
+    "human_verification_recommendation": "Recommend manual forensic review and corroboration against trusted eyewitness or verified news wire sources.",
+    "module_summaries": {
+      "metadata_stripped": true,
+      "c2pa_status": "Unavailable",
+      "recycled_matches_count": 0,
+      "compression_severity": "Severe",
+      "ai_synthetic_prob": 0.7951,
+      "video_assessment": null
+    },
+    "generated_at": "2026-11-17T16:44:02.029431+00:00",
+    "alert_generated": {
+      "id": "7d292798-10b3-411c-908f-54904906646a",
+      "report_id": "a93814c8-6117-47f0-b546-35532ded7b92",
+      "media_id": "dddfd0f5-6563-4fc7-b5b0-41258c9c7c60",
+      "severity": "High",
+      "category": "AI-Generated Image",
+      "headline": "Potentially suspicious image detected (AI Generation Signature)",
+      "details": "Synthetic neural cues identified with 79.5% probability and frequency spectral grid peaks.",
+      "acknowledged": false,
+      "acknowledged_at": null,
+      "created_at": "2026-11-17T16:44:02.028488+00:00"
+    }
+  }
+}
