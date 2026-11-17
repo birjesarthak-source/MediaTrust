@@ -1,25 +1,25 @@
+
 services:
-  # Backend API Service (Python FastAPI + PyTorch)
+  # Backend API - FastAPI + PyTorch
   - type: web
     name: mediatrust-backend
-    env: docker
+    runtime: docker
     dockerContext: ./backend
     dockerfilePath: ./backend/Dockerfile
     plan: free
     healthCheckPath: /api/v1/health
     envVars:
       - key: PORT
-        value: 8000
+        value: "8000"
       - key: PYTHONUNBUFFERED
-        value: 1
+        value: "1"
 
-  # Frontend Static Site (React + Vite)
+  # Frontend - React + Vite
   - type: web
     name: mediatrust-frontend
-    env: static
+    runtime: static
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: ./frontend/dist
-    plan: free
     routes:
       - type: rewrite
         source: /*
